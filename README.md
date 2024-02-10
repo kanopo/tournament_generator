@@ -1,5 +1,7 @@
 # tournament generator
 
+![tournament image example](./tournament_tree.png)
+
 
 ## Setup
 ```bash

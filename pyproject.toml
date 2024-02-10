@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tournament-maker"
+version = "0.1.0"
+description = "Make a tournament graph from a list of players and track the results of the matches."
+authors = ["kanopo <dmitri.ollari@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.8.2"
+click = "^8.1.7"
+icecream = "^2.1.3"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
